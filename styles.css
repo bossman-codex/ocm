@@ -1,0 +1,32 @@
+/* purgecss start ignore */
+@tailwind base;
+
+.gradient-1 {
+    background: linear-gradient(121.1deg, #FD901C 29.06%, #D97306 108.78%);
+}
+
+.gradient-2 {
+    background: linear-gradient(121.1deg, #8B95A6 29.06%, #515C6F 108.78%);
+}
+
+.transparent {
+    background-color: rgba(235, 222, 222, 0.5);
+}
+
+.center-pos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+html {
+    font-family: 'Muli', sans-serif;
+
+}
+
+@tailwind components;
+
+/* purgecss end ignore */
+
+@tailwind utilities;
